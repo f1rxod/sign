@@ -1,0 +1,67 @@
+img{
+    width: 75%;
+    height: 75%;
+}
+.inputs{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.txts-2{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    width:35%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    margin: -25px 0 0 -25px;
+    padding: 50px 0;
+    text-align: center;
+}
+.txts{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    width:35%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    margin: -25px 0 0 -25px;
+    padding: 50px 0;
+    text-align: center;
+}
+h1{
+    color: #00A551;
+}
+.q{
+    margin: 20px 0 0 0;
+}
+.inputs input{
+    border: none;
+    background-color:  #F4F4F4;
+    width: 300px;
+    text-align: start;
+    height: 30px;
+    border-radius: 10px;
+}
+#email, #password{
+    margin-bottom: 30px;
+}
+.submit{
+    border: none;
+    background-color: #00A551;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+.submit:hover{
+    color: #00A551;
+    background-color: #F4F4F4;
+}
+.create_account{
+    border: none;
+    background-color: white;
+    color: #00A551;
+    margin-top: 0;
+}
